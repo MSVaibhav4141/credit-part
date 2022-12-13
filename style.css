@@ -79,7 +79,10 @@ p{
 
 .member{    
     display: flex;
-    width: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
 }
 
 .member img{
@@ -88,15 +91,16 @@ p{
 }
 
 .member h4{
-    margin: 20px 0 0 15px;
+    /* margin: 20px 0 0 15px; */
 }
 
 .member p{
-    margin: 0 0 0 15px;
+    /* margin: 0 0 0 15px; */
 }
 
 .text{
-    width: 100%;
+    width: 40%;
+    margin-left: 20px;
     text-align: start;
 }
 
@@ -104,4 +108,12 @@ p{
     width: 50vw;
     display: flex;
     flex-direction: column;
+}
+
+.mem-inner{
+   width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }

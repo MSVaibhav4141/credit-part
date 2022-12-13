@@ -32,6 +32,11 @@
         .member{    
             display: flex;
             width: 100%;
+            border: 1px solid;
+            display: flex;
+            justify-content: center;
+
+           align-items: center;
         }
         .mem-core{
             width: 100vw;
