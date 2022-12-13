@@ -1,0 +1,42 @@
+@media (max-width:500px) {
+    *{
+        box-sizing: border-box;
+    }
+    #team{
+        height:43rem;
+    }
+        .upperbox{
+            flex-direction: row;
+            background-color: brown;
+            flex-wrap: wrap;
+        }
+
+        .names{
+            width: 100vw;
+        }
+        #bottom{
+            position: absolute;
+            /* top:77%; */
+            text-align: center;
+        }
+
+        #bottom h2{
+            color: #00c853;
+         }
+        .member-list{
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            flex-wrap: wrap;
+        }
+        .member{    
+            display: flex;
+            width: 100%;
+        }
+        .mem-core{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+        }
+
+}
